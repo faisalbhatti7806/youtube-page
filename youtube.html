@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shehraz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        .aa {
+            padding-left: 10px;
+            margin-left: 180px;
+            width: 600px;
+            border-radius: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .vedio {
+            /* padding-left: 0px; */
+            /* padding-top: -60px; */
+        }
+
+        .ved {
+            padding-left: 30px;
+        }
+
+        .voi,
+        .man {
+            padding-left: 30px;
+        }
+
+        .hr {
+            width: 140px;
+            margin-left: -0.5px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .ss {
+            color: rgb(248, 22, 6);
+        }
+
+        .sd {
+            color: rgb(37, 140, 224);
+        }
+
+        .sp {
+            color: rgba(247, 6, 187, 0.986);
+
+        }
+
+
+        .figure {
+            padding-right: 40px;
+            padding-top: 40px;
+            padding-left: 50px;
+        }
+
+        .hh {
+            font-size: 120px;
+            font-family: serif;
+            color: rgb(144, 122, 112);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <a class="btn btn-success" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars"></i>
+                </a> <img class="im2" width="80px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/youtube-logo-png/youtube-logo-png-transparent-image-5.png"
+                    alt="">
+            </div>
+            <div class="col-md-5">
+                <div class="input-group flex-nowrap mt-2">
+                    <input type="search" class="form-control" placeholder="Search" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                    <img class="im6" src="search.png" width="40px" height="50px" alt="">
+                    <span class="search.png" id="addon-wrapping"></span>
+                    <li><i class="fa-solid fa-microphone mt-3 ms-3"></i></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" style="width:260px ;"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+
+            </div>
+
+            <div class="offcanvas-body">
+                <div>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-house" style="color: black;"></i></span> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><span><img width="20px"
+                                        src="https://static.wikia.nocookie.net/logopedia/images/4/4e/YouTube_Shorts_%28Outline%29.svg/revision/latest/scale-to-width-down/250?cb=20221201213331"
+                                        alt=""></span> Short</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><span><i class="fa-solid fa-photo-film"></i></span>
+                                Subscription</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-clapperboard"></i></span> Library</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><span><i
+                                        class="fa-solid fa-clock-rotate-left"></i></span> History</a>
+                        </li>
+
+                        <hr>
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="#">Sign in to like videos,
+                                comment, and subscribe.</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <button type="button" class="btn btn-outline-primary w-50"><span><i
+                                        class="fa-regular fa-user"></i></span> Sign in</button>
+                        </li>
+                        <hr>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#">Explore</a>
+
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-fire"></i> </span> Trending</a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-music"></i></span>Browse </a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-gamepad"></i></span> News</a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-trophy"></i> </span> sports</a>
+
+                        </li>
+                        <hr>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-square-plus"></i></span>Music </a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-square-plus"></i></span> Songs</a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-square-plus"></i></span> Gaming</a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-square-plus"></i></span> Language</a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-square-plus"></i></span> Learn</a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-dark " aria-current="page" href="#"><span><i
+                                        class="fa-solid fa-square-plus"></i></span> Browse</a>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1">
+                <nav class="nav flex-column">
+                    <a class="nav-link text-dark" aria-current="page" href="#"><span><i
+                                class="fa-solid fa-house"></i></span> Home</a>
+                    <a class="nav-link text-dark" href="#"><span><i class="fa-solid fa-spa"></i></span> Sorts</a>
+                    <a class="nav-link text-dark" href="#"><span><i class="fa-solid fa-video"></i></span>
+                        Subscription</a>
+                    <a class="nav-link text-dark" href="#"><span><i class="fa-solid fa-images"></i></span> Library</a>
+                </nav>
+
+            </div>
+
+
+            <div class="col-md-11">
+                <button type="button" class="btn btn-dark">All</button>
+                <button type="button" class="btn btn-light">Live</button>
+                <button type="button" class="btn btn-light">Saylni Walfare</button>
+                <button type="button" class="btn btn-light">Movies</button>
+                <button type="button" class="btn btn-light">Motou patlu</button>
+                <button type="button" class="btn btn-light">Qawali</button>
+                <button type="button" class="btn btn-light">Music</button>
+                <button type="button" class="btn btn-light">Pakistani Dramas</button>
+                <button type="button" class="btn btn-light">Naat</button>
+                <button type="button" class="btn btn-light">Tamil Cenima</button>
+                <button type="button" class="btn btn-light">News</button>
+                <button type="button" class="btn btn-light">Vedios</button>
+                <button type="button" class="btn btn-light">Milli Nagmay</button>
+                <figure class="figure"><br>
+                    <img src="https://i.ytimg.com/vi/Kexm_JT1xBQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUou-9s1y1OYmRheGoiHFuEhQOuw"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption"><span class="ss">A caption for the above image <br>.Some of the
+                            seen of this <br> episode is very interesting so <br> I can't miss this episode. <br> I like
+                            this episode very much<span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/HagVnWAeGcM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSOTMMuEVopwLricQ6rVk3wVOWmw"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sp">A caption for Some <br> of the seen of
+                            this <br> so I can't miss this episode. <br> I like this episode <br> very much the above
+                            image.<span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/LK2rLoDqhVU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2-7vxlg8P2XPAwvGivBDFM6fsRg"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="ss">A caption Some of the seen <br> of this
+                            episode is very interesting <br> so I can't miss this episode <br>. I like this episode very
+                            much <br> for the above image.<span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/MYqxaqQhPfU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0mtzbKyZmHAL4yjhl-LRDAQ5-tA"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sd">The Some of the seen <br> of this
+                            episode is very interesting <br> so I can't miss this episode. <br> I like this episode <br>
+                            very much above image.<span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/HNdLI1PTbT8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqgVEk5BIsIdGqubfrFIBeFJ9hPg"
+                        width="300px" class="figure-img  rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sp">A caption for the above <br> Some of
+                            the seen of this <br> episode is very interesting <br> so I can't miss this episode. <br> I
+                            like this episode very much image.<span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/bzz00FdsqzU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBc9yeEjTXvh-L0g0F7WCnBzTv9Ww"
+                        width="300px" class="figure-img rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sd">A caption for <br> the above image <br>
+                            Some of the seen of this episode <br> is very interesting so I can't miss this episode. <br>
+                            I like this episode very much.<span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <iframe width="360" height="315" src="https://www.youtube.com/embed/BzFv7GnqZ_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                       
+                    <figcaption class="figure-caption text-end"><span class="sp"> Hafiz Muhammad Imran Assi Sahib is
+                            official <br> Hafiz Muhammad Imran Assi is <br> best khateeb.</span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/xy1oRrgr6ds/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoB0EArdoak7vCLehvMkWWBFV9DA"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sd">
+                            Motou patlu is official carton. <br> Motou patlu is great carton. <br>Motou patlu is very
+                            funny carton.</span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/RQOb9C93kik/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfTnjWQBL1fu86hQ60b-XegdwJOw"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sp"> Hafiz Muhammad Imran Assi Sahib is
+                            official <br> Hafiz Muhammad Imran Assi is <br> best khateeb.</span></figcaption>
+                </figure>
+
+
+                <h1 class="hh">Sorts</h1>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/S2d8pai6jBE/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLB2Pf4vP6mNrhIMWBJEfFA_l-43YQ"
+                        width="190px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/9cGIiCipt3I/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBdCx6pOyut5kL5Z6wpU8v2glenvg"
+                        width="190px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/tDqaYEeutBo/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAXt_fBZZFbEKm4-sAEf9kx9j2vzA"
+                        width="190px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/gx7BWbwqWGM/hq720_2.jpg?sqp=-oaymwEdCI4CEOADSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLC4skLXqUHFy1zfbch5pvYI0vvySA"
+                        width="190px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+
+
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/HagVnWAeGcM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSOTMMuEVopwLricQ6rVk3wVOWmw"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sd">
+                            Motou patlu is official carton. <br> Motou patlu is great carton. <br>Motou patlu is very
+                            funny carton.</span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/9RqlYSTfTMg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXu_X2re-gj4FXacDnC_czBsQfVQ"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="ss">
+                            Motou patlu is official carton. <br> Motou patlu is great carton. <br>Motou patlu is very
+                            funny carton.</span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/a44ohQeIuO8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdMuCKweLfbEXFqpuY8j1-_WjO9Q"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sp">
+                            Motou patlu is official carton. <br> Motou patlu is great carton. <br>Motou patlu is very
+                            funny carton.</span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/wMbjxkhmYGw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAO22JxNz5K54YORFbZwEMo6ogzPA"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sp">
+                            Motou patlu is official carton. <br> Motou patlu is great carton. <br>Motou patlu is very
+                            funny carton.</span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/OKXhpO2kWcA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATFyNvUcZJrdDolmn0t_VzXBJ30A"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="sd">
+                            Motou patlu is official carton. <br> Motou patlu is great carton. <br>Motou patlu is very
+                            funny carton.</span></figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="https://i.ytimg.com/vi/Kexm_JT1xBQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUou-9s1y1OYmRheGoiHFuEhQOuw"
+                        width="300px" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-end"><span class="ss">
+                            Motou patlu is official carton. <br> Motou patlu is great carton. <br>Motou patlu is very
+                            funny carton.</span></figcaption>
+                </figure>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
